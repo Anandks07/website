@@ -1,0 +1,153 @@
+    /*typewriter*/
+    h1{
+      animation: type 3s steps(27);
+      overflow: hidden;
+      white-space: nowrap;
+      text-align: center;
+      border-right: 2px solid white;
+      width:27ch;}
+
+    @keyframes type{
+      0%{
+        width:0ch;}
+      100%{
+        width:27ch;}
+    }  
+
+	    .image {
+      display: block;
+      width: 100%;
+      height: auto;}
+      a{
+        font-family: 'Annie Use Your Telescope';
+        font-size: 22px;
+        text-decoration: none;
+      }
+
+    /* top background image */
+        .topback{/*background-image: url('background.jpg');*/
+        background-color: #f64a4a ;
+        overflow: hidden;
+        padding: 30px;
+        font-family: 'Annie Use Your Telescope';font-size: 22px;
+        }
+        
+    /* social media badges */
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 60px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;}
+  
+      .fa:hover {
+          opacity: 0.7;}
+  
+      .fa-instagram {
+        background: #ea4c89;
+        color: white;}
+  
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;}
+  
+      .fa-linkedin {
+        background: #007bb5;
+        color: white; }
+      
+      .fa-youtube {
+      background: #bb0000;
+      color: white;}
+
+
+    /*  top navigation bar */
+    .topnav {
+    overflow: hidden;
+    background-color:#140101;
+    top:0;
+    position: sticky;}
+
+    /* topnav links */
+    .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+
+    /* Change color on hover */
+    .topnav a:hover {
+    background-color: rgb(240, 11, 11);
+    color: black;}
+
+
+    /*Popular */
+    .popular{
+    background-color: black;
+    height:500px;
+    width:1200px;
+    margin-left: 100px;
+    border-radius: 25px;}
+
+    /* overlay transition*/
+    .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:#333333;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;}
+   
+   .container {
+    position: relative;
+    width: 50%;}
+    
+    /* overlay transition*/
+    .container:hover .overlay {
+      height: 100%;}
+    
+    /* hover text */
+    .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);}
+
+    *{
+    box-sizing: border-box;}
+
+    .box {
+    float: left;
+    width: 33.33%;
+    padding: 30px;}
+    .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;}
+
+    .bottom{
+        background-color: black;
+        padding:60px;
+    }
+    .image {
+    display: block;
+    width: 100%;
+    height: auto;}
+
+    .footer {
+      color: #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+

@@ -1,0 +1,69 @@
+    /*  top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color:#140101;
+      top:0;
+      position: sticky;}
+
+    
+  
+      /* topnav links */
+      .topnav a {
+      float: right;
+      display: block;
+      color: #f2f2f2;
+      font-family: 'Annie Use Your Telescope';
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;}
+      a{font-family: 'Annie Use Your Telescope';
+        font-size: 22px}
+  
+      /* Change color on hover */
+      .topnav a:hover {
+      background-color: rgb(240, 11, 11);
+      color: black;}
+
+    /* top intro*/
+    .topback{
+    background-color:#f64a4a ;
+    overflow: hidden;
+    font-family: 'Annie Use Your Telescope';;
+    padding: 70px;}
+
+
+     /* social media badges */
+     .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;}
+
+    .fa:hover {
+        opacity: 0.7;}
+
+    .fa-instagram {
+      background: #ea4c89;
+      color: white;}
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;}
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white; }
+    
+    .fa-youtube {
+    background: #bb0000;
+    color: white;}
+
+    h1{ font-family: 'Annie Use Your Telescope';font-size: 50px}
+    .footer {
+      color: #ddd;
+      padding: 10px;
+      text-align: center;
+    }
